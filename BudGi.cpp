@@ -127,7 +127,7 @@ void setBudget() {
         cin >> monthlyBudget;
     }
     cout << "\nMonthly Budget is Successfully Added!\n"; //exit message if user correctly set budget.
-    }
+}
  
  
 void addBalance() {
@@ -210,7 +210,7 @@ void addExpense() {
     entry.remainingBalance = entry.balance - calculateTotalExpense();
    
     cout << "\nExpense is Added Successfully!\n"; //exit message if user is done adding an expense
-    }
+}
  
  
 void viewExpense() {
