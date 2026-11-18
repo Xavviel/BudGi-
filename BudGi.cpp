@@ -98,12 +98,12 @@ int main() {
  
  
             case 6:
-            cout << "\nThank you for using BudGi Expense Tracker\n"; //exit message
+               cout << "\nThank you for using BudGi Expense Tracker\n"; //exit message
             break;
  
  
             default:
-            cout << "\nInvalid Choice!\nPlease Select from choices 1 - 6.\n"; //if user tries to input numbers greater than 5
+               cout << "\nInvalid Choice!\nPlease Select from choices 1 - 6.\n"; //if user tries to input numbers greater than 5
             break;
         }
  
